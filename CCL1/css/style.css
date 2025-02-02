@@ -1,0 +1,112 @@
+#gameContainer {
+    position: relative;
+    width: 1536px;
+    height: 864px;
+}
+
+#canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+#background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1536px;
+    height: 864px;
+    background-image: url("../images/background.png");
+    background-size: cover;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.startPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/startImage.png') no-repeat center center/cover;
+    /* Tło jako zdjęcie */
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.endPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/finishGood.jpg') no-repeat center center/cover;
+    /* Tło jako zdjęcie */
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.start-screen {
+    text-align: center;
+}
+
+.start-button {
+    display: inline-block;
+    width: 300px;
+    /* Szerokość obrazka przycisku */
+    height: 120px;
+    /* Wysokość obrazka przycisku */
+    background: url('../images/button.png') no-repeat center center/contain;
+    /* Przycisk jako obraz */
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+    top: 50px;
+}
+
+.start-button:hover {
+    transform: scale(1.1);
+    /* Powiększenie najechanego przycisku */
+}
+
+.start-button:active {
+    transform: scale(0.95);
+    /* Zmniejszenie przycisku przy kliknięciu */
+}
+
+.finish-screen {
+    text-align: center;
+}
+
+.finish-button {
+    display: inline-block;
+    width: 400px;
+    /* Szerokość obrazka przycisku */
+    height: 160px;
+    /* Wysokość obrazka przycisku */
+    background: url('../images/button1.png') no-repeat center center/contain;
+    /* Przycisk jako obraz */
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+    top: 50px;
+    left: -270px
+}
+
+.finish-button:hover {
+    transform: scale(1.1);
+    /* Powiększenie najechanego przycisku */
+}
+
+.finish-button:active {
+    transform: scale(0.95);
+    /* Zmniejszenie przycisku przy kliknięciu */
+}
