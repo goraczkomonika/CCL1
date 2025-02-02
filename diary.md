@@ -2,7 +2,7 @@
 I created the game idea and talked about it to Victor. After I got a green light on my idea, I started coding. I created a base for the game, but it still wasn’t running.
 
 14.01.2025 (Tuesday)
-I was coding the whole day. I managed to create something that starts to look like a game.
+I was coding the whole day. I managed to create something that starts to look like a game. I also decided that I have to comment my code very thoroughly, so I can actually understand it and have my notes always around.
 
 15.01.2025 (Wednesday)
 I started to work hard on the drawings. I drew a sprite sheet, started on the background, platforms and the flag.
