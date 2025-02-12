@@ -3,7 +3,6 @@ import { global } from "./global.js"; // Globalne zmienne i funkcje pomocnicze
 import { Character } from "../gameObjects/character.js"; // Klasa gracza (lub postaci w grze)
 import { MoveTrigger } from "../gameObjects/moveTrigger.js"; // Klasa odpowiedzialna za wyzwalacze ruchu
 import { BlockObject } from "../gameObjects/blockObject.js"; // Klasa obiektu blokującego (np. przeszkoda)
-import { Floor } from "../gameObjects/floor.js"; // Klasa podłogi (platformy)
 import {Flag} from "../gameObjects/flag.js"
 
 
